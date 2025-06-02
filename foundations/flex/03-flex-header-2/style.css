@@ -24,9 +24,11 @@ body {
   height: 48px;
 }
 
-.container1 {
+.container1,
+.container2 {
   display: flex;
-  gap: 18px;
+  align-items: center;
+  gap: 16px;
 }
 
 .logo {
@@ -34,6 +36,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 button {
@@ -41,8 +45,6 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
-
 }
 
 a {
@@ -53,8 +55,8 @@ a {
 
 ul {
   list-style-type: none;
-  display: flex;
-  gap: 18px;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 16px;
 }

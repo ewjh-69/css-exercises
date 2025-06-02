@@ -5,6 +5,10 @@ body {
 }
 
 .header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 16px;
+  padding-left: 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
@@ -14,16 +18,46 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
+}
+
+div a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 16px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  margin: 48px;
+  padding: 16px;
+  flex: 1;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
 }
